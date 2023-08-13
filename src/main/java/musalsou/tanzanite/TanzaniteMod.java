@@ -5,14 +5,23 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
+import net.minecraft.recipe.Recipe;
+import net.minecraft.recipe.RecipeManager;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.gen.GenerationStep;
 import net.minecraft.world.gen.feature.PlacedFeature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Optional;
 
 import static musalsou.tanzanite.RegisterItems.*;
 
@@ -53,5 +62,7 @@ public class TanzaniteMod implements ModInitializer {
 			content.add(CUSTOM_MATERIAL_BOOTS);
 		});
 		LOGGER.info("Hello Fabric world!");
+
 	}
+
 }

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "tanzanite:custom_item"
+    },
+    "title": "Tanzanite!",
+    "description": "The Power lies in the Ruby!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "tutorialmod:textures/block/ruby_block.png"
+  },
+  "rewards": {
+    "recipes": [
+      "tanzanite:custom_material_helmet",
+      "tanzanite:custom_material_leggings",
+      "tanzanite:custom_material_chestplate",
+      "tanzanite:custom_material_sword",
+      "tanzanite:custom_material_boots"
+
+    ]
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tanzanite:custom_item"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-08-13 16:55:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2023-08-13 16:55:48 -0500"
+    },
+    "done": false
+  },
+  "tanzanite:tanzanite_mod": {
+    "criteria": {
+      "requirement": "2023-08-13 16:56:09 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
