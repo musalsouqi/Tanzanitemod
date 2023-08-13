@@ -27,7 +27,7 @@ public class ExampleMod implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
     public static final Logger LOGGER = LoggerFactory.getLogger("tanzanite");
 
-	public static final Item CUSTOM_ITEM = new SarahsRockTwo(new FabricItemSettings().maxCount(64));
+	public static final Item CUSTOM_ITEM = new Tanzanite(new FabricItemSettings().maxCount(64));
 	public static final Block CUSTOM_ORE  = new Block(FabricBlockSettings.create().strength(4.0f).requiresTool());
 	public static final RegistryKey<PlacedFeature> CUSTOM_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("tutorial","custom_ore"));
 	@Override
