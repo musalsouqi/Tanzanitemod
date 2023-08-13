@@ -16,9 +16,9 @@ public class RegisterItems {
     public static final Item CUSTOM_MATERIAL_LEGGINGS = new ArmorItem(CUSTOM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings());
     public static final Item CUSTOM_MATERIAL_BOOTS = new ArmorItem(CUSTOM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings());
     public static void register() {
-        Registry.register(Registries.ITEM, new Identifier("tutorial", "custom_material_helmet"), CUSTOM_MATERIAL_HELMET);
-        Registry.register(Registries.ITEM, new Identifier("tutorial", "custom_material_chestplate"), CUSTOM_MATERIAL_CHESTPLATE);
-        Registry.register(Registries.ITEM, new Identifier("tutorial", "custom_material_leggings"), CUSTOM_MATERIAL_LEGGINGS);
-        Registry.register(Registries.ITEM, new Identifier("tutorial", "custom_material_boots"), CUSTOM_MATERIAL_BOOTS);
+        Registry.register(Registries.ITEM, new Identifier("tanzanite", "custom_material_helmet"), CUSTOM_MATERIAL_HELMET);
+        Registry.register(Registries.ITEM, new Identifier("tanzanite", "custom_material_chestplate"), CUSTOM_MATERIAL_CHESTPLATE);
+        Registry.register(Registries.ITEM, new Identifier("tanzanite", "custom_material_leggings"), CUSTOM_MATERIAL_LEGGINGS);
+        Registry.register(Registries.ITEM, new Identifier("tanzanite", "custom_material_boots"), CUSTOM_MATERIAL_BOOTS);
     }
 }

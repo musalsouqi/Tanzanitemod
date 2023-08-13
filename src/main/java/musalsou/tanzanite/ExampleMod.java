@@ -29,17 +29,17 @@ public class ExampleMod implements ModInitializer {
 
 	public static final Item CUSTOM_ITEM = new Tanzanite(new FabricItemSettings().maxCount(64));
 	public static final Block CUSTOM_ORE  = new Block(FabricBlockSettings.create().strength(4.0f).requiresTool());
-	public static final RegistryKey<PlacedFeature> CUSTOM_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("tutorial","custom_ore"));
+	public static final RegistryKey<PlacedFeature> CUSTOM_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("tanzanite","custom_ore"));
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-		Registry.register(Registries.ITEM, new Identifier("tutorial", "custom_item"), CUSTOM_ITEM);
+		Registry.register(Registries.ITEM, new Identifier("tanzanite", "custom_item"), CUSTOM_ITEM);
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> {
 			content.add(CUSTOM_ITEM);
 		});
-		Registry.register(Registries.BLOCK, new Identifier("tutorial", "custom_ore"), CUSTOM_ORE);
+		Registry.register(Registries.BLOCK, new Identifier("tanzanite", "custom_ore"), CUSTOM_ORE);
 
 		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, CUSTOM_ORE_PLACED_KEY);
 		RegisterItems.register();
