@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "tanzanite",
+	"version": "1.0.0",
+	"name": "Tanzanite",
+	"description": "This mod adds tanzanite to minecraft.",
+	"authors": [
+		"Mustafa Alsouqi"
+	],
+	"contact": {
+		"homepage": "https://github.com/musalsouqi",
+		"sources": "https://github.com/musalsouqi"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sarahs-rock/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"musalsou.tanzanite.ExampleMod"
+		],
+		"client": [
+			"musalsou.tanzanite.ExampleModClient"
+		]
+	},
+	"mixins": [
+		"sarahs-rock.mixins.json",
+		{
+			"config": "sarahs-rock.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

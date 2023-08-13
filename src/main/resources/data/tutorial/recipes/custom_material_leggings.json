@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "W W",
+    "W W"
+  ],
+  "key": {
+    "W": {
+      "item": "tutorial:custom_item"
+    }
+  },
+  "result": {
+    "item": "tutorial:custom_material_leggings",
+    "count": 1
+  }
+}
