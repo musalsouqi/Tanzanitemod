@@ -20,7 +20,7 @@ public class RegisterItems {
     public static final Block CUSTOM_ORE  = new Block(FabricBlockSettings.create().strength(4.0f).requiresTool());
     public static final Item CUSTOM_ITEM = new Tanzanite(new FabricItemSettings().maxCount(64));
     public static ToolItem TANZANITE_SWORD = new SwordItem(TanzaniteToolMaterial.INSTANCE, 12, -2.4F, new Item.Settings());
-    public static ToolItem TANZANITE_PICKAXE = new PickaxeItem(TanzaniteToolMaterial.INSTANCE,  3, -2.8F, new Item.Settings());
+    public static ToolItem TANZANITE_PICKAXE = new PickaxeItem(TanzaniteToolMaterial.INSTANCE,  2, -2.8F, new Item.Settings());
 
 
     public static void register() {
