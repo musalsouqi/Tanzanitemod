@@ -1,6 +1,5 @@
 package musalsou.tanzanite;
 
-import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -26,6 +25,8 @@ public class TanzaniteToolMaterial implements ToolMaterial {
     public int getMiningLevel() {
         return 1;
     }
+
+
 
     @Override
     public int getEnchantability() {
