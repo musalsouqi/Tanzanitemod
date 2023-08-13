@@ -34,6 +34,6 @@ public class TanzaniteToolMaterial implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(TanzaniteMod.CUSTOM_ITEM);
+        return Ingredient.ofItems(RegisterItems.CUSTOM_ITEM);
     }
 }
