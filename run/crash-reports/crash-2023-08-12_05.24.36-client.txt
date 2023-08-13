@@ -25,7 +25,7 @@ Caused by: java.lang.ExceptionInInitializerError
 	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47)
 	... 8 more
 Caused by: java.lang.ClassCastException: class java.util.HashMap cannot be cast to class net.minecraft.item.Item$Settings (java.util.HashMap is in module java.base of loader 'bootstrap'; net.minecraft.item.Item$Settings is in unnamed module of loader net.fabricmc.loader.impl.launch.knot.KnotClassLoader @711f39f9)
-	at musalsou.tanzanite.ExampleMod.<clinit>(ExampleMod.java:18)
+	at musalsou.tanzanite.TanzaniteMod.<clinit>(ExampleMod.java:18)
 	... 14 more
 
 

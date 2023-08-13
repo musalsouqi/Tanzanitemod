@@ -19,7 +19,7 @@ java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to err
 Caused by: net.minecraft.util.InvalidIdentifierException: Non [a-z0-9/._-] character in path of location: sarah:SARAHS_ROCK
 	at net.minecraft.util.Identifier.validatePath(Identifier.java:252)
 	at net.minecraft.util.Identifier.<init>(Identifier.java:47)
-	at musalsou.tanzanite.ExampleMod.onInitialize(ExampleMod.java:26)
+	at musalsou.tanzanite.TanzaniteMod.onInitialize(ExampleMod.java:26)
 	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47)
 	... 8 more
 

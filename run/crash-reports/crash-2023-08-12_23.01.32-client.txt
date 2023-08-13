@@ -23,7 +23,7 @@ Caused by: java.lang.RuntimeException: Attempted to register ID ResourceKey[mine
 	at net.minecraft.registry.SimpleRegistry.add(SimpleRegistry.java:186)
 	at net.minecraft.registry.Registry.register(Registry.java:118)
 	at net.minecraft.registry.Registry.register(Registry.java:114)
-	at musalsou.tanzanite.ExampleMod.onInitialize(ExampleMod.java:35)
+	at musalsou.tanzanite.TanzaniteMod.onInitialize(ExampleMod.java:35)
 	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47)
 	... 8 more
 

@@ -12,11 +12,11 @@
 		"sources": "https://github.com/musalsouqi"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/sarahs-rock/icon.png",
+	"icon": "assets/tanzanite/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"musalsou.tanzanite.ExampleMod"
+			"musalsou.tanzanite.TanzaniteMod"
 		],
 		"client": [
 			"musalsou.tanzanite.ExampleModClient"
@@ -25,7 +25,7 @@
 	"mixins": [
 		"tanzanite.mixins.json",
 		{
-			"config": "sarahs-rock.client.mixins.json",
+			"config": "tanzanite.client.mixins.json",
 			"environment": "client"
 		}
 	],

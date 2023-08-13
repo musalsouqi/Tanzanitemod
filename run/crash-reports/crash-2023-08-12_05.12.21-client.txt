@@ -19,7 +19,7 @@ java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to err
 Caused by: net.minecraft.util.InvalidIdentifierException: Non [a-z0-9_.-] character in namespace of location: Sarahsrock:custom_item
 	at net.minecraft.util.Identifier.validateNamespace(Identifier.java:232)
 	at net.minecraft.util.Identifier.<init>(Identifier.java:47)
-	at musalsou.tanzanite.ExampleMod.onInitialize(ExampleMod.java:24)
+	at musalsou.tanzanite.TanzaniteMod.onInitialize(ExampleMod.java:24)
 	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47)
 	... 8 more
 

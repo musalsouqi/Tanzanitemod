@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 
 public class RegisterItems {
 
-    public static final ArmorMaterial CUSTOM_ARMOR_MATERIAL = new PurpleArmorMaterial();
+    public static final ArmorMaterial CUSTOM_ARMOR_MATERIAL = new TanzaniteArmorMaterial();
     // If you made a new material, this is where you would note it.
     public static final Item CUSTOM_MATERIAL_HELMET = new ArmorItem(CUSTOM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings());
     public static final Item CUSTOM_MATERIAL_CHESTPLATE = new ArmorItem(CUSTOM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings());
