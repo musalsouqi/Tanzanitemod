@@ -47,6 +47,9 @@ public class TanzaniteMod implements ModInitializer {
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> {
 			content.add(TANZANITE_AXE);
 		});
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> {
+			content.add(TANZANITE_SHOVEL);
+		});
 
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
 			content.add(CUSTOM_ITEM);

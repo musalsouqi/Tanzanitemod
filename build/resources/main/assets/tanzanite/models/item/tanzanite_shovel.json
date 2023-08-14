@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tanzanite:item/tanzanite_shovel"
+  }
+}
