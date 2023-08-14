@@ -10,7 +10,7 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.gen.GenerationStep;
-import net.minecraft.world.gen.feature.PlacedFeature;
+import net.minecraft.world.gen.feature.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,14 +24,16 @@ public class TanzaniteMod implements ModInitializer {
 
 
 
+
 	public static final RegistryKey<PlacedFeature> CUSTOM_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("tanzanite","custom_ore"));
+
 	@Override
 	public void onInitialize() {
+
 
 		//adds blocks into world
 		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, CUSTOM_ORE_PLACED_KEY);
 		RegisterItems.register();
-
 
 
 

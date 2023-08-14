@@ -18,8 +18,9 @@
       "tanzanite:custom_sword",
       "tanzanite:custom_material_boots",
       "tanzanite:custom_pickaxe",
-      "tanzanite:custom_axe"
-
+      "tanzanite:custom_axe",
+      "tanzanite:custom_block",
+      "tanzanite:custom_item"
     ]
   },
   "criteria": {

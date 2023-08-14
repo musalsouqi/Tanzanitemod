@@ -43,7 +43,7 @@ public class TanzaniteArmorMaterial implements ArmorMaterial {
     @Override
     public Ingredient getRepairIngredient() {
 
-        return Ingredient.EMPTY;
+        return Ingredient.ofItems(RegisterItems.CUSTOM_ITEM);
     }
 
     @Override
