@@ -1,6 +1,8 @@
 # Tanzanitemod
 https://github.com/musalsouqi/Tanzanitemod/releases/tag/v1.1.0
+
 --updated armor art
+
 --added shovel recipe
 
 <img src="https://i.ibb.co/6Fq7ccn/15.png" alt="15" border="0"></a>
