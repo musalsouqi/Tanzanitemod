@@ -15,9 +15,10 @@
       "tanzanite:custom_material_helmet",
       "tanzanite:custom_material_leggings",
       "tanzanite:custom_material_chestplate",
-      "tanzanite:custom_material_sword",
-      "tanzanite:custom_material_boots"
-      
+      "tanzanite:custom_sword",
+      "tanzanite:custom_material_boots",
+      "tanzanite:custom_pickaxe"
+
     ]
   },
   "criteria": {

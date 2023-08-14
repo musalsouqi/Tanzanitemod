@@ -2,7 +2,7 @@
   "type": "minecraft:ore",
   "config": {
     "discard_chance_on_air_exposure": 0.0,
-    "size": 6,
+    "size": 8,
     "targets": [
       {
         "state": {
@@ -15,7 +15,7 @@
       },
       {
         "state": {
-          "Name": "tanzanite:custom_ore"
+          "Name": "tanzanite:deepslate_custom_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",

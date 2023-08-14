@@ -1,0 +1,21 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-08-13 18:49:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2023-08-13 18:49:34 -0500"
+    },
+    "done": false
+  },
+  "tanzanite:tanzanite_mod": {
+    "criteria": {
+      "requirement": "2023-08-13 18:49:42 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

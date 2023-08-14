@@ -18,9 +18,12 @@ public class RegisterItems {
     public static final Item CUSTOM_MATERIAL_LEGGINGS = new ArmorItem(CUSTOM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings());
     public static final Item CUSTOM_MATERIAL_BOOTS = new ArmorItem(CUSTOM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings());
     public static final Block CUSTOM_ORE  = new Block(FabricBlockSettings.create().strength(4.0f).requiresTool());
+    public static final Block DEEPSLATE_CUSTOM_ORE  = new Block(FabricBlockSettings.create().strength(4.0f).requiresTool());
     public static final Item CUSTOM_ITEM = new Tanzanite(new FabricItemSettings().maxCount(64));
     public static ToolItem TANZANITE_SWORD = new SwordItem(TanzaniteToolMaterial.INSTANCE, 12, -2.4F, new Item.Settings());
-    public static ToolItem TANZANITE_PICKAXE = new PickaxeItem(TanzaniteToolMaterial.INSTANCE,  2, -2.8F, new Item.Settings());
+    public static ToolItem TANZANITE_PICKAXE = new PickaxeItem(TanzanitePickAxe.INSTANCE,  2, -2.8F, new Item.Settings());
+
+    public static final Item TANZANITE_AXE = new AxeItem(TanzaniteAxe.INSTANCE, 6.0f, -3.0f, new Item.Settings());
 
 
     public static void register() {
@@ -32,10 +35,13 @@ public class RegisterItems {
         Registry.register(Registries.ITEM, new Identifier("tanzanite", "custom_item"), CUSTOM_ITEM);
         //registers ore
         Registry.register(Registries.BLOCK, new Identifier("tanzanite", "custom_ore"), CUSTOM_ORE);
+        Registry.register(Registries.BLOCK, new Identifier("tanzanite", "deepslate_custom_ore"), DEEPSLATE_CUSTOM_ORE);
         //registers sword
         Registry.register(Registries.ITEM, new Identifier("tanzanite", "custom_sword"), TANZANITE_SWORD);
         //registers pickaxe
         Registry.register(Registries.ITEM, new Identifier("tanzanite", "custom_pickaxe"), TANZANITE_PICKAXE);
+        //registers axe
+        Registry.register(Registries.ITEM, new Identifier("tanzanite", "custom_axe"), TANZANITE_AXE);
 
     }
 }

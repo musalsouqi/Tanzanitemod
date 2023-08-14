@@ -34,9 +34,16 @@ public class TanzaniteMod implements ModInitializer {
 
 
 
+
 		//adds items to groups
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(content -> {
 			content.add(TANZANITE_SWORD);
+		});
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> {
+			content.add(TANZANITE_PICKAXE);
+		});
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> {
+			content.add(TANZANITE_AXE);
 		});
 
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> {
