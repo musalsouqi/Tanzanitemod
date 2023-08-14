@@ -46,7 +46,7 @@ public class TanzaniteMod implements ModInitializer {
 			content.add(TANZANITE_AXE);
 		});
 
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> {
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
 			content.add(CUSTOM_ITEM);
 		});
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(content -> {
@@ -60,6 +60,9 @@ public class TanzaniteMod implements ModInitializer {
 		});
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(content -> {
 			content.add(CUSTOM_MATERIAL_BOOTS);
+		});
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> {
+			content.add(CUSTOM_BLOCK);
 		});
 		LOGGER.info("Hello Fabric world!");
 

@@ -24,6 +24,7 @@ public class RegisterItems {
     public static ToolItem TANZANITE_PICKAXE = new PickaxeItem(TanzanitePickAxe.INSTANCE,  2, -2.8F, new Item.Settings());
 
     public static final Item TANZANITE_AXE = new AxeItem(TanzaniteAxe.INSTANCE, 6.0f, -3.0f, new Item.Settings());
+    public static final Block CUSTOM_BLOCK  = new Block(FabricBlockSettings.create().strength(4.0f));
 
 
     public static void register() {
@@ -42,6 +43,9 @@ public class RegisterItems {
         Registry.register(Registries.ITEM, new Identifier("tanzanite", "custom_pickaxe"), TANZANITE_PICKAXE);
         //registers axe
         Registry.register(Registries.ITEM, new Identifier("tanzanite", "custom_axe"), TANZANITE_AXE);
+        //registers my block
+        Registry.register(Registries.BLOCK, new Identifier("tanzanite", "custom_block"), CUSTOM_BLOCK);
+        Registry.register(Registries.ITEM, new Identifier("tanzanite", "custom_block"), new BlockItem(CUSTOM_BLOCK, new FabricItemSettings()));
 
     }
 }

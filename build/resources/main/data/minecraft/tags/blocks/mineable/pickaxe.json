@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tanzanite:custom_ore"
+    "tanzanite:custom_ore",
+    "tanzanite:custom_block"
   ]
 }

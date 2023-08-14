@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W  ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "W": {
+      "item": "tanzanite:custom_block"
+    }
+  },
+  "result": {
+    "item": "tanzanite:custom_item",
+    "count": 9
+  }
+}
