@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "tanzanite:custom_ore",
+    "tanzanite:deepslate_custom_ore",
     "tanzanite:custom_block"
   ]
 }
