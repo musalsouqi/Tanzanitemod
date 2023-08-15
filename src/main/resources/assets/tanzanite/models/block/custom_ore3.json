@@ -1,11 +1,11 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "down": "tanzanite:block/custom_ore",
+    "down": "tanzanite:block/custom_ore3",
     "up": "tanzanite:block/custom_ore2",
-    "north": "tanzanite:block/custom_ore2",
+    "north": "tanzanite:block/custom_ore",
     "south": "tanzanite:block/custom_ore3",
-    "west": "tanzanite:block/custom_ore3",
+    "west": "tanzanite:block/custom_ore2",
     "east": "tanzanite:block/custom_ore",
     "particle": "tanzanite:block/custom_ore"
   }

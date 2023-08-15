@@ -7,8 +7,6 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
 public class TanzaniteArmorMaterial implements ArmorMaterial {
-    private static final int[] BASE_DURABILITY = new int[] {13, 15, 16, 11};
-    private static final int[] PROTECTION_VALUES = new int[] {5, 8, 10, 5};
 
 
 
@@ -48,7 +46,7 @@ public class TanzaniteArmorMaterial implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return "gilded";
+        return "tanzanite";
     }
 
     @Override

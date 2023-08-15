@@ -1,5 +1,9 @@
 {
   "variants": {
-    "": { "model": "tanzanite:block/custom_ore" }
+    "": [
+      { "model": "tanzanite:block/custom_ore" },
+      { "model": "tanzanite:block/custom_ore2" },
+      { "model": "tanzanite:block/custom_ore3" }
+    ]
   }
 }

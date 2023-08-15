@@ -1,5 +1,6 @@
 {
   "variants": {
-    "": { "model": "tanzanite:block/custom_block" }
+    "": { "model": "tanzanite:block/custom_block"    }
+
   }
 }
