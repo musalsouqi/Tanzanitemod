@@ -1,15 +1,12 @@
 # Tanzanitemod
 https://github.com/musalsouqi/Tanzanitemod/releases/tag/v1.2.0
-
---updated armor art
-
---added shovel recipe
+--Updated block art
+--Created random block generator
 
 <img src="https://i.ibb.co/6Fq7ccn/15.png" alt="15" border="0"></a>
+<img src="https://i.ibb.co/R4rpbgJ/ore1.png" alt="ore1" border="0">
+<img src="https://i.ibb.co/V9LcKqT/ored.png" alt="ore1" border="0">
 <img src="https://i.ibb.co/k5KMDDV/16.png" alt="16" border="0">
-<img src="https://i.ibb.co/FHHqnWm/1.png" alt="1" border="0">
-<img src="https://i.ibb.co/Z8RvMrQ/2.png" alt="2" border="0">
-<img src="https://i.ibb.co/60z3n25/3.png" alt="3" border="0">
 <img src="https://i.ibb.co/jkWCMPR/4.png" alt="4" border="0">
 <img src="https://i.ibb.co/jDT15TK/5.png" alt="5" border="0">
 <img src="https://i.ibb.co/zhYYh6n/6.png" alt="6" border="0">
