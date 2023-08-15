@@ -12,19 +12,19 @@ public class TanzaniteArmorMaterial implements ArmorMaterial {
 
     @Override
     public int getDurability(ArmorItem.Type type) {
-        if(type.equals(ArmorItem.Type.BOOTS)){return 500;}
-        else if (type.equals(ArmorItem.Type.LEGGINGS)){return 500;}
-        else if (type.equals(ArmorItem.Type.CHESTPLATE)) {return 500;}
-        else if (type.equals(ArmorItem.Type.HELMET)) {return 500;}
+        if(type.equals(ArmorItem.Type.BOOTS)){return 250;}
+        else if (type.equals(ArmorItem.Type.LEGGINGS)){return 250;}
+        else if (type.equals(ArmorItem.Type.CHESTPLATE)) {return 250;}
+        else if (type.equals(ArmorItem.Type.HELMET)) {return 250;}
         return 500;
     }
 
     @Override
     public int getProtection(ArmorItem.Type type) {
-        if(type.equals(ArmorItem.Type.BOOTS)){return 6;}
-        else if (type.equals(ArmorItem.Type.LEGGINGS)){return 10;}
-        else if (type.equals(ArmorItem.Type.CHESTPLATE)) {return 12;}
-        else if (type.equals(ArmorItem.Type.HELMET)) {return 6;}
+        if(type.equals(ArmorItem.Type.BOOTS)){return 3;}
+        else if (type.equals(ArmorItem.Type.LEGGINGS)){return 6;}
+        else if (type.equals(ArmorItem.Type.CHESTPLATE)) {return 8;}
+        else if (type.equals(ArmorItem.Type.HELMET)) {return 3;}
         return 15;
     }
 
