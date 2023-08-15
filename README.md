@@ -1,5 +1,5 @@
 # Tanzanitemod
-https://github.com/musalsouqi/Tanzanitemod/releases/tag/v1.1.0
+https://github.com/musalsouqi/Tanzanitemod/releases/tag/v1.2.0
 
 --updated armor art
 
