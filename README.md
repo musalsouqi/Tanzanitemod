@@ -1,5 +1,7 @@
 # Tanzanitemod
 
+--Project will resume soon---- 
+
 
 https://github.com/musalsouqi/Tanzanitemod/releases/tag/v1.2.0
 
