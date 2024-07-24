@@ -1,7 +1,6 @@
 # Tanzanitemod
 
 --Project will resume soon---- 
-Sure, here's a README for your Tanzanite Minecraft mod:
 
 ---
 
